@@ -1,5 +1,6 @@
 package com.booleanuk.api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -13,6 +14,7 @@ public class Department {
     private String name;
     private String location;
     @OneToMany(mappedBy = "department")
+    @JsonIgnoreProperties("Department")
     private List<Employee> employees;
     public Department(){
 
