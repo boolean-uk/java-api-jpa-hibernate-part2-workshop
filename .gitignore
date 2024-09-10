@@ -38,3 +38,6 @@ out/
 
 ### Personal Settings ###
 src/main/resources/application.yml
+
+### For MacOS ###
+.DS_Store
