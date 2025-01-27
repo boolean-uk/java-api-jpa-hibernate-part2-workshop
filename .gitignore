@@ -38,3 +38,5 @@ out/
 
 ### Personal Settings ###
 src/main/resources/application.yml
+
+application.yml
